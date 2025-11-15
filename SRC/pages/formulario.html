@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/SRC/global/reset.css">
+    <link rel="stylesheet" href="/SRC/style/main.css">
+</head>
+
+<body>
+    <header class="caixa">
+        <nav class="menu-lateral">
+            <img src="/SRC/assets/thumbs/01.jpg" alt="Imagem onde possui diversas bicicletas"
+                class="menu-lateral__imagem">
+            <ul class="menu-lateral__lista">
+                <li class="menu-lateral__item">
+                    <a href="/SRC/index.html" class="menu-lateral__link">Home</a>
+                </li>
+                <li class="menu-lateral__item">
+                    <a href="/SRC/pages/tipografia.html" class="menu-lateral__link">Tipografia</a>
+                </li>
+                <li class="menu-lateral__item">
+                    <a href="/SRC/pages/card.html" class="menu-lateral__link">Cards</a>
+                </li>
+                <li class="menu-lateral__item">
+                    <a href="/SRC/pages/Listas.html" class="menu-lateral__link">Listas</a>
+                </li>
+                <li class="menu-lateral__item">
+                    <a href="#" class="menu-lateral__link">Formulário</a>
+                </li>
+                <li class="menu-lateral__item">
+                    <a href="#" class="menu-lateral__link">Botões</a>
+                </li>
+                <li class="menu-lateral__item">
+                    <a href="#" class="menu-lateral__link">Tabelas</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section>
+            <h1 class="titulo">My Component</h1>
+
+            <div class="contato">
+                <fieldset class="contato__fieldset">
+                    <legend class="contato__legend">Entre em Contato</legend>
+
+                    <form class="contato__form" action="">
+                        <div class="group-cont">
+                            <div class="contato__grupo">
+                                <label>Nome</label>
+                                <input class="contato__input" type="text" name="Nome">
+                            </div>
+
+                            <div class="contato__grupo">
+                                <label>Email</label>
+                                <input class="contato__input" type="email">
+                            </div>
+                        </div>
+                        <div class="contato_text">
+                            <label>Digite sua mensagem</label>
+                            <textarea class="contato__textarea" name="bloco_texto" rows="10"></textarea>
+                        </div>
+                        <input class="contato_botao contato__input" type="button" value="Enviar">
+                    </form>
+                </fieldset>
+
+                <address class="contato__info">
+                    <p class="contato__info-item">Endereço: 1234 Somewhere Rd. Nashville, TN 000000 United States</p>
+                    <p class="contato__info-item">Telefone: xxxx-xxxx</p>
+                    <p class="contato__info-item">Email: Email@server.com</p>
+                </address>
+            </div>
+            <div>
+                <fieldset class="contato__fieldset">
+                    <legend class="contato__legend">Quiz</legend>
+                    <form class="prefs">
+                        <div class="prefs__grupo">
+                            <label for="linguagem" class="prefs__label">Qual é a Sua Linguagem Preferida</label>
+                            <select id="linguagem" class="contato__input">
+                                <option value="" selected>Selecione</option>
+                                <option value="python">Python</option>
+                                <option value="java">Java</option>
+                                <option value="javascript">JavaScript</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label class="prefs__label">Baixa Prioridade</label>
+                            <input class="prefs__radio" type="radio" name="Prioridade" value="Baixa">
+                        </div>
+
+                        <div>
+                            <label class="prefs__label">Média Prioridade</label>
+                            <input class="prefs__radio" type="radio" name="Prioridade" value="Media">
+                        </div>
+
+                        <div >
+                            <label class="prefs__label">Alta Prioridade</label>
+                            <input class="prefs__radio" type="radio" name="Prioridade" value="Alta">
+                        </div>
+                        <div>
+                            <input type="checkbox">
+                            <label for=" ">Envie me uma cópia</label>
+                        </div>
+                        <div>
+                            <input type="checkbox">
+                            <label for=" ">Sou um Humano</label>
+                        </div>
+
+                        <div class="prefs__acoes">
+                            <input class="prefs__botao contato__input" type="reset" value="Limpar">
+                            <input class="prefs__botao contato__input button-edit" type="button" value="Enviar">
+                        </div>
+                    </form>
+
+                </fieldset>
+            </div>
+
+
+        </section>
+    </main>
+
+</body>
+
+</html>

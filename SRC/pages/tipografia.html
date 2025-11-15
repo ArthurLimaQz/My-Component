@@ -19,13 +19,13 @@
                     <a href="/SRC/index.html" class="menu-lateral__link">Home</a>
                 </li>
                 <li class="menu-lateral__item">
-                    <a href="#" class="menu-lateral__link">Tipografia</a>
+                    <a href="/SRC/pages/tipografia.html" class="menu-lateral__link">Tipografia</a>
                 </li>
                 <li class="menu-lateral__item">
-                    <a href="#" class="menu-lateral__link">Cards</a>
+                    <a href="/SRC/pages/card.html" class="menu-lateral__link">Cards</a>
                 </li>
                 <li class="menu-lateral__item">
-                    <a href="#" class="menu-lateral__link">Listas</a>
+                    <a href="/SRC/pages/Listas.html" class="menu-lateral__link">Listas</a>
                 </li>
                 <li class="menu-lateral__item">
                     <a href="#" class="menu-lateral__link">Formulário</a>
@@ -42,55 +42,80 @@
     <main class="main">
         <h1 class="titulo">My Component</h1>
         <section class="tipografia">
-            <div class="tipografia-one">
+            <article class="tipografia-one">
                 <h2>Tipografia</h2>
                 <p>A Tipografia transmite nossas definições de tamanhos e espaçamentos e deve ser utilizada respeitando
                     a
                     hierarquia dos elementos na interface</p>
-            </div>
-            <h3>Elements</h3>
-            <h4>Text</h4>
-            <p>isso é em <b>negrito</b> e isso é em <strong>strong</strong>. Isso é em <i>italic</i> e isso é
-                <em>enfatizar</em>. Isso é um texto<sup>sobreescrito</sup> e isso é um texto <sub>subscrito</sub>. Isso
-                é um <u>sublinhado</u>
-                e isso é um <code>código for (;;;) ( ... )</code>. Finalmente isso é um <a href="#">link</a>
-            </p>
-            <h4>Citação</h4>
-            <p>De acordo com o site Mozilla, <q>Firefox 1. foi lançado em 2004 e. se tornou um grande sucesso</q></p>
-            <blockquote>Isto é um paragrafo de citação. Indica que o texto incluído é uma longa citação. Normalmente,
-                este é processado visualmente pelo recuo. Uma URL para a fonte da citação pode ser dada utando o
-                atributo cite.</blockquote>
-            <h4>Abreviações</h4>
-            <p>Podemos usar <abbr title="Cascading Style Sheets">CSS</abbr> para estilizar nossos arquivos <abbr
-                    title="HyperText Markup Language">HTML</abbr></p>
-            <H4>sobrescrito e subscrito</H4>
-            <p>Ocasionalmente, você precisará usar sobrescrito e subscrito ao marcar item como datas, fórmulas químicas
-                e equações matemáticas para que tenham o significado corrato.</p>
-            <p>Caffeine's chemical formula is C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>.</p>
-            <p>if x<sup>2</sup> is 9, x must equal 3 of -3.</p>
-            <h4><q>coisas</q> de computador</h4>
-            <p>Use tags corretas para representar elementos como teclas, trechos de código de saída etc.</p>
-            <p>Pressione <kbd>CTRL</kbd> + <kbd>c</kbd> para copiar.</p>
-            <pre class="tag-pre">a tag pre, formata levando em consideração as quebras de linha, os espaços.</pre>
-            <pre>
-                <code>
+            </article>
+            <article>
+                <h3>Elements</h3>
+                <h4>Text</h4>
+                <p>isso é em <b>negrito</b> e isso é em <strong>strong</strong>. Isso é em <i>italic</i> e isso é
+                    <em>enfatizar</em>. Isso é um texto<sup>sobreescrito</sup> e isso é um texto <sub>subscrito</sub>.
+                    Isso
+                    é um <u>sublinhado</u>
+                    e isso é um <code>código for (;;;) ( ... )</code>. Finalmente isso é um <a href="#">link</a>
+                </p>
+            </article>
+            <article>
+                <h4>Citação</h4>
+                <p>De acordo com o site Mozilla, <q>Firefox 1. foi lançado em 2004 e. se tornou um grande sucesso</q>
+                </p>
+                <blockquote>
+                    <p>Isto é um paragrafo de citação. Indica que o texto incluído é uma longa citação.
+                        Normalmente,
+                        este é processado visualmente pelo recuo. Uma URL para a fonte da citação pode ser dada utando o
+                        atributo cite.</p>
+                </blockquote>
+            </article>
+            <article>
+                <h4>Abreviações e definições</h4>
+                <p>Podemos usar <abbr title="Cascading Style Sheets">CSS</abbr> para estilizar nossos arquivos <abbr
+                        title="HyperText Markup Language">HTML</abbr></p>
+                <p>O <dfn><abbr title="HyperText Markup Language">HTML</abbr></dfn> é a linguagem usada para estruturar
+                    o conteúdo de páginas da web e <dfn><abbr title="Cascading Style Sheets">CSS</abbr></dfn> é a
+                    linguagem usada para definir o estilo e a aparência dessas páginas.</p>
+                <p></p>
+            </article>
+            <article>
+                <H4>sobrescrito e subscrito</H4>
+                <p>Ocasionalmente, você precisará usar sobrescrito e subscrito ao marcar item como datas, fórmulas
+                    químicas
+                    e equações matemáticas para que tenham o significado corrato.</p>
+                <p>Caffeine's chemical formula is C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>.</p>
+                <p>if x<sup>2</sup> is 9, x must equal 3 of -3.</p>
+            </article>
+            <article>
+                <h4><q>coisas</q> de computador</h4>
+                <p>Use tags corretas para representar elementos como teclas, trechos de código de saída etc.</p>
+                <p>Pressione <kbd>CTRL</kbd> + <kbd>c</kbd> para copiar.</p>
+                <pre class="tag-pre">a tag pre, formata levando em consideração as quebras de linha, os espaços.</pre>
+                <pre><code>
                  &lt;script&gt;
                         alert('oi');
-                &lt;script&gt; 
-                 
-                    </code>
-                    
+                &lt;script&gt;                 
+                    </code>                    
                     </pre>
-            <h4>Horário e datas</h4>
-            <p>O HTML também fornece o elemento <code>&lt;time&gt;</code> para marcar horas e datas em um formato
-                legível por máquina. Imagine uma página de eventos</p>
-            <h5>Evento sobre HTML e CSS</h5>
-            <p>O evento ocorrerá em <time datetime="2018-09-15">15 de setembro de 2018</time></p>
-            <p>O evento ocorrerá em <time datetime="2018-09-15">15/09/2018</time></p>
-            <p>O evento ocorrerá em <time datetime="2018-09-15T20:00">15/09/2018 - 20:00</time></p>
-            <h4>Confirme sua presença</h4>
-            <p>O agendamento está marcado para <time datetime="18:00">18h00</time></p>
-            <p>Aprender semântica HTML é <s>complicado</s> <u>fácil</u></p>
+            </article>
+            <article>
+                <h4>Horário e datas</h4>
+                <p>O HTML também fornece o elemento <code>&lt;time&gt;</code> para marcar horas e datas em um formato
+                    legível por máquina. Imagine uma página de eventos</p>
+            </article>
+            <article>
+                <h5>Evento sobre HTML e CSS</h5>
+                <p>O evento ocorrerá em <time datetime="2018-09-15">15 de setembro de 2018</time></p>
+                <p>O evento ocorrerá em <time datetime="2018-09-15">15/09/2018</time></p>
+                <p>O evento ocorrerá em <time datetime="2018-09-15T20:00">15/09/2018 - 20:00</time></p>
+            </article>
+            <article>
+                <h4>Confirme sua presença</h4>
+                <p>O agendamento está marcado para <time datetime="18:00">18h00</time></p>
+                <p>O agendamentop <del><time datetime="18:00">18h00</time></del> foi cancelado, novo horario <ins><time
+                            datetime="19:00">19:00</time></ins></p>
+                <p>Aprender semântica HTML é <s>complicado</s> <u>fácil</u></p>
+            </article>
 
         </section>
     </main>

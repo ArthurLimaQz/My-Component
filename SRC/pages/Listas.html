@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/SRC/global/reset.css">
+    <link rel="stylesheet" href="/SRC/style/main.css">
+</head>
+
+<body>
+    <header class="caixa">
+        <nav class="menu-lateral">
+            <img src="/SRC/assets/thumbs/01.jpg" alt="Imagem onde possui diversas bicicletas"
+                class="menu-lateral__imagem">
+            <ul class="menu-lateral__lista">
+                <li class="menu-lateral__item">
+                    <a href="/SRC/index.html" class="menu-lateral__link">Home</a>
+                </li>
+                <li class="menu-lateral__item">
+                    <a href="/SRC/pages/tipografia.html" class="menu-lateral__link">Tipografia</a>
+                </li>
+                <li class="menu-lateral__item">
+                    <a href="/SRC/pages/card.html" class="menu-lateral__link">Cards</a>
+                </li>
+                <li class="menu-lateral__item">
+                    <a href="/SRC/pages/Listas.html" class="menu-lateral__link">Listas</a>
+                </li>
+                <li class="menu-lateral__item">
+                    <a href="#" class="menu-lateral__link">Formulário</a>
+                </li>
+                <li class="menu-lateral__item">
+                    <a href="#" class="menu-lateral__link">Botões</a>
+                </li>
+                <li class="menu-lateral__item">
+                    <a href="#" class="menu-lateral__link">Tabelas</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <h1 class="titulo">My Component</h1>
+        <section class="cards-intro">
+            <div class="box-text">
+                <h2 class="cards-intro__title">Listas</h2>
+                <p class="cards-intro__text">
+                    Listas podem ser ordenadas, não ordenadas e aninhadas
+                </p>
+            </div>
+        </section>
+        <section>
+            <div class="row">
+                <div>
+                    <h3>Não ordenadas</h3>
+                    <ul class="nao_ordenadas">
+                        <li>item 1</li>
+                        <li>item 2</li>
+                        <li>item 3</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Ordenadas</h3>
+                    <ol type="1" class="ordenadas">
+                        <li>item 1</li>
+                        <li>item 2</li>
+                        <li>item 3</li>
+                    </ol>
+                </div>
+                <div>
+                    <h3>Alternates</h3>
+                    <ul class="alternate">
+                        <li>item 1</li>
+                        <li>item 2</li>
+                        <li>item 3</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <h3>Não ordenadas</h3>
+                    <ul class="nao_ordenadas">
+                        <li>item 1</li>
+                        <li>item 2
+                            <ul>
+                                <li>item 2.1</li>
+                                <li>item 2.2
+                                    <ul>
+                                        <li>item 2.2.1</li>
+                                        <li>item 2.2.2</li>
+                                        <li>item 2.2.3</li>
+                                    </ul>
+                                </li>
+                                <li>item 2.3</li>
+                            </ul>
+                        </li>
+                        <li>item 3</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Ordenadas</h3>
+                    <ol type="A" start="6" class="ordenadas">
+                        <li>item 1</li>
+                        <li>item 2
+                            <ol type="I" reversed>
+                                <li>item 2.1</li>
+                                <li>item 3.2
+                                    <ol type="a" start="10">
+                                        <li>item 1.2.1</li>
+                                        <li>item 1.2.2</li>
+                                        <li>item 1.2.3</li>
+                                    </ol>
+                                </li>
+                                <li>item 2.3</li>
+                            </ol>
+                        </li>
+                        <li>item 3</li>
+                    </ol>
+                </div>
+                <div>
+                    <h3>Ambas</h3>
+                    <ol>
+                        <li>item 1</li>
+                        <li>item 2
+                            <ul class="list-emojis">
+                                <li>item 2.1</li>
+                                <li>item 2.2</li>
+                                <li>item 2.3</li>
+                            </ul>
+                        </li>
+                        <li>item 3</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
