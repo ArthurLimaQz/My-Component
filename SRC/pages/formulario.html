@@ -50,18 +50,18 @@
                     <form class="contato__form" action="">
                         <div class="group-cont">
                             <div class="contato__grupo">
-                                <label>Nome</label>
-                                <input class="contato__input" type="text" name="Nome">
+                                <label for="nome">Nome</label>
+                                <input class="contato__input" type="text" name="Nome" id="nome">
                             </div>
 
                             <div class="contato__grupo">
-                                <label>Email</label>
-                                <input class="contato__input" type="email">
+                                <label for="email">Email</label>
+                                <input class="contato__input" type="email" id="email">
                             </div>
                         </div>
                         <div class="contato_text">
-                            <label>Digite sua mensagem</label>
-                            <textarea class="contato__textarea" name="bloco_texto" rows="10"></textarea>
+                            <label for="caixa-texto">Digite sua mensagem</label>
+                            <textarea class="contato__textarea" name="bloco_texto" rows="10" id="caixa-texto"></textarea>
                         </div>
                         <input class="contato_botao contato__input" type="button" value="Enviar">
                     </form>
@@ -88,26 +88,26 @@
                         </div>
 
                         <div>
-                            <label class="prefs__label">Baixa Prioridade</label>
-                            <input class="prefs__radio" type="radio" name="Prioridade" value="Baixa">
+                            <label class="prefs__label" for="baixa">Baixa Prioridade</label>
+                            <input class="prefs__radio" type="radio" name="Prioridade" value="Baixa" id="baixa">
                         </div>
 
                         <div>
-                            <label class="prefs__label">Média Prioridade</label>
-                            <input class="prefs__radio" type="radio" name="Prioridade" value="Media">
+                            <label class="prefs__label" for="Media">Média Prioridade</label>
+                            <input class="prefs__radio" type="radio" name="Prioridade" value="Media" id="Media">
                         </div>
 
-                        <div >
-                            <label class="prefs__label">Alta Prioridade</label>
-                            <input class="prefs__radio" type="radio" name="Prioridade" value="Alta">
+                        <div>
+                            <label class="prefs__label" for="Alta">Alta Prioridade</label>
+                            <input class="prefs__radio" type="radio" name="Prioridade" value="Alta" id="Alta">
                         </div>
                         <div>
-                            <input type="checkbox">
-                            <label for=" ">Envie me uma cópia</label>
+                            <input type="checkbox" id="envie_copia">
+                            <label for="envie_copia">Envie me uma cópia</label>
                         </div>
                         <div>
-                            <input type="checkbox">
-                            <label for=" ">Sou um Humano</label>
+                            <input type="checkbox" id="sou_humano">
+                            <label for="sou_humano">Sou um Humano</label>
                         </div>
 
                         <div class="prefs__acoes">
